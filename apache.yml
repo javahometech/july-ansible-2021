@@ -1,4 +1,5 @@
 - hosts: 172.31.8.172
+  become: yes
   tasks:
     - name: install apache
       yum:
